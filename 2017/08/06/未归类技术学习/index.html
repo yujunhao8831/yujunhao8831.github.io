@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="个人日志记录"><title>未归类技术学习 | 披荆斩棘</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//lib.baomitu.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//lib.baomitu.com/jquery/3.3.1/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">未归类技术学习</h1><a id="logo" href="/.">披荆斩棘</a><p class="description">时间就是金钱,我的朋友.</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="https://github.com/yujunhao8831/"><i class="fa undefined"> GitHub</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">未归类技术学习</h1><div class="post-meta">Aug 6, 2017<span> | </span><span class="category"><a href="/categories/金融/">金融</a></span><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span></div><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#均线"><span class="toc-number">2.</span> <span class="toc-text">均线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#用60线区分股性的强弱"><span class="toc-number">3.</span> <span class="toc-text">用60线区分股性的强弱</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#逆推法"><span class="toc-number">4.</span> <span class="toc-text">逆推法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#空头中枢和多头中枢以及中阴中枢"><span class="toc-number">5.</span> <span class="toc-text">空头中枢和多头中枢以及中阴中枢</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#短线"><span class="toc-number">6.</span> <span class="toc-text">短线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#外汇"><span class="toc-number">7.</span> <span class="toc-text">外汇</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#“类”概念"><span class="toc-number">8.</span> <span class="toc-text">“类”概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#还是均线"><span class="toc-number">9.</span> <span class="toc-text">还是均线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MACD"><span class="toc-number">10.</span> <span class="toc-text">MACD</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#15分钟和60分钟简单示例"><span class="toc-number">10.1.</span> <span class="toc-text">15分钟和60分钟简单示例</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#短线-1"><span class="toc-number">11.</span> <span class="toc-text">短线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#概念"><span class="toc-number">12.</span> <span class="toc-text">概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#高低点"><span class="toc-number">13.</span> <span class="toc-text">高低点</span></a></li></ol></div></div><div class="post-content"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>周期的级别为日线 60 分钟、15 分钟、5 分钟、 1 分钟</p>
+<p>均线设置为默认参数，</p>
+<ul>
+<li>日线图 5/10/30/60</li>
+<li>60 分钟、15 分钟 均保留一条均线 60 线。</li>
+<li>5 分钟保留两条均线，13 和 21。</li>
+<li>1 分钟无均线。<b>主要参考指标</b>，股票上只有 MACD、MA。外汇上为 MACD、MA、 CCI。这些都是辅助参考。一切以走势结构为准。</li>
+</ul>
+<h2 id="均线"><a href="#均线" class="headerlink" title="均线"></a>均线</h2><p><b style="font-size:18px;color:green">平常参考指标最多应该首推均线</b></p>
+<p>均线真正有效的时候还是跟 K 线走势以及高低点的配合。</p>
+<ul>
+<li>1，任何趋势性的上涨，必须先上 15 分钟的 60 线，然后选择走中枢上移或者单边上涨。但是前提必须是先上 15 分钟的 60 线。</li>
+<li>2，任何强势的上涨，必须是围绕 15 分钟 60 线涨开的，15 分钟上任何一笔的回调均在 15 分钟 60 线上。<br>可以打开走势图去观察强势股票，找出不满足的。<br>这个结构一旦破坏，强势走势暂停，这时需要级别升高，看 60 分钟的 60 线和 60 分钟的 K 线走势。以此类推，级别逐级升高。</li>
+</ul>
+<p><b style="color:green">可以用这个特性用做参考</b></p>
+<h2 id="用60线区分股性的强弱"><a href="#用60线区分股性的强弱" class="headerlink" title="用60线区分股性的强弱"></a>用60线区分股性的强弱</h2><p>在 60 线缠绕个不停的或者被 60 线反压着，走势没有明显背驰的完全可以一眼过然后忘记它。<br>散户应该就有散户的心态，没有足够的耐性的人不要去幻想中长线，你的钱本身不多，利用率如果还跟不上去，不如把钱扔在银行里。<br>这里需要注意，千万不要把 60 线当做买卖点的依据，关键还是在于走势。<br>任何的上都是为了下，任何在 60 线上移动的走势最终都要跌破各个级别的 60 线。这里就需要给出一个前提，当下走势未完成的时候，用 60 线去区分强弱，然后进行操作和差价，这里更多用到得是第三类买点，或者类三买。以及利用奔走型中枢进行有效的差价。</p>
+<h2 id="逆推法"><a href="#逆推法" class="headerlink" title="逆推法"></a>逆推法</h2><p>是相对于缠论中的递归,从小级别递归到大级别</p>
+<p><b style="color:red;font-size:24px">反之从大级别逆推到小级别.</b></p>
+<ul>
+<li>选出强势的股票，做一笔(<b style="color:green">做 60 分钟的一笔或者 15 分钟的一笔</b>)<br>在强力趋势中，把走势分解成一笔又一笔(如果趋势是向上,那么一笔一笔的做也只是做向上笔,向下笔不做;反正,趋势向下,那么向上笔不做)<ul>
+<li>单边走势持有</li>
+<li>有中枢就一笔一笔的去做</li>
+</ul>
+</li>
+</ul>
+<p>既然是笔，自然满足笔结构，如果你介入 15 分钟向上一笔，连笔结构都没完成，肯定是不完美的。<br>笔结构完成了,再把这一笔缩小到 5 分钟或者 1 分钟中看走势的完成</p>
+<p><b style="color:green">如果笔的结构都没有,那么就不好分析</b></p>
+<h2 id="空头中枢和多头中枢以及中阴中枢"><a href="#空头中枢和多头中枢以及中阴中枢" class="headerlink" title="空头中枢和多头中枢以及中阴中枢"></a>空头中枢和多头中枢以及中阴中枢</h2><p>中枢像一个拉锯点，里面包含着多头和空头的拉锯战站，谁赢了朝胜利者那方突破</p>
+<ul>
+<li>越是简单的中枢代表多空的力量悬殊。越是复杂的中枢的，证明双方的拉锯力量接近</li>
+</ul>
+<p><strong>空头中枢代表着下跌中继，多头中枢代表着上涨中继。</strong></p>
+<ul>
+<li>在 MACD0 轴以上形成的叫做多头中枢，在 MACD 0 轴以下形成的叫做空头中枢。</li>
+<li>那么沿着 0 轴缠绕形成的中枢叫什么中枢，自然叫中阴中枢。</li>
+</ul>
+<p>: <b style="color:red">此中阴和缠的中阴又是有点区别的<b></b></b></p>
+<p>中阴中枢一般发生在第一个买卖点之后形成的，背驰之后完全可以走</p>
+<ul>
+<li>上涨+盘整+上涨</li>
+<li>上涨+盘整+下跌</li>
+<li>下跌+盘整+下跌</li>
+<li>下跌+盘整+上涨</li>
+</ul>
+<p>既然中阴中枢之后会出现如此多的可能,那么如果不是绝对把握盈利,那么遇到这种情况就放弃</p>
+<p>明明相同的技术买点，比如都是一买后一个走的是中阴中枢，一个走的是多头中枢，为什么不介入多头中枢中，而是要进入不强的中阴去震荡。(一定要注意资金利用率,不要浪费时间)</p>
+<p style="color:green;font-weight:bold"><br>总结 :<br>MACD双回拉和MACD双回抽<br>60线上操作<br>股性强弱<br></p>
+
+<h2 id="短线"><a href="#短线" class="headerlink" title="短线"></a>短线</h2><p>短线技术就是这样，有个稳定的心态能静下心来去慢慢分析，哪怕你不懂走势，哪怕你只知道15分钟60分钟60线的妙用，那也是胜多输少的。</p>
+<h2 id="外汇"><a href="#外汇" class="headerlink" title="外汇"></a>外汇</h2><p style="color:red;font-weight:bold"><br>外汇看似经常波动起伏，但是能做的走势往往只是几波。<br>外汇中一买是不适用的，原因在于趋势的延续性太强。<br></p>
+
+<p>外汇讲究的一个顺势而为，将顺势而为这四个字转化为技术买卖便是二买，二卖，类二买类二卖的时候介入，要只吃最强一波那更简单三类买卖点。</p>
+<p> <b>T+0的东西虽然可以理论上一天操作N次，并不代表1分钟非常重要。恰恰相反，一分钟并不那么重要，最多精确的时候或者超强势的时候选择性参考下。</b></p>
+<p>外汇走势分类 :</p>
+<ul>
+<li>标准趋势</li>
+<li>非标准趋势（盘整上涨走势，盘整下跌走势，扩张走势）</li>
+<li>盘整走势。</li>
+</ul>
+<p>第三类我一般不参与的，外汇开盘24小时，盘整占了大部分而且波动小，不必要浪费精气神。外汇中最不缺的就是机会</p>
+<p style="color:red;font-weight:bold;font-size:18px"><br>走势分类了出来，那么自然是先分辨出走势类型，走势类型开始延伸可以在相应买卖点介入，走势结构已经完成但是并未背驰可以等走势背驰，然后在二买卖和类二买卖的时候介入。<br>心放大一些，以1H一笔为标准单位去做，这样利润复利是非常可观的。<br></p>
+
+<p>目前我做外汇的缺点 :</p>
+<ul>
+<li>不能够完全按照方法去严格执行,会受到内心潜意识的控制,以为会怎么样</li>
+<li>对于不是那么背,走势结构不是那么好的,或者说给自己内心灌输一些可能的想法,强行介入</li>
+</ul>
+<h2 id="“类”概念"><a href="#“类”概念" class="headerlink" title="“类”概念"></a>“类”概念</h2><p>缠有这么个概念，本级别走一笔，次级别是一段</p>
+<ul>
+<li>可以这样定义，60 分钟周期走一笔，15 分钟走一段或者类一段。</li>
+</ul>
+<p style="color:red;font-weight:bold;font-size:18px"><br>60分钟一笔，在5分钟周期图上必定有一个完美的线段走势类型。<br></p>
+
+
+<h2 id="还是均线"><a href="#还是均线" class="headerlink" title="还是均线"></a>还是均线</h2><p>缠的防狼术里说过，拒绝去做 MACD0 轴以下的股票，因为 MACD0 轴下的 走势向下的杀伤力强，股性也不活跃。</p>
+<p>为什么60线这么重要?<br>60线能有的作用 :</p>
+<ul>
+<li><ol>
+<li>防狼术<br>各个周期图的 60 线基本对应该周期图的 MACD0 轴，这个简单的转换，显然要比看 MACD0 轴以及红绿柱的延伸，黄白线的缠绕来的更加直观</li>
+</ol>
+</li>
+<li><ol>
+<li>股性<br>分辨股性强弱</li>
+</ol>
+</li>
+</ul>
+<p><b style="color:red;font-size:18px">不要把均线当作买卖点来操作。它更像有效参考但不代表是答案，只是让你获得想要的结果更加简单一些。</b><br>均线可以用来做辅助.</p>
+<p>均线有很多作用 : 用均线关键在于趋势运用，配合走势结构， 判别股性，分界线。切忌，阻力支撑的加入，切忌修改参数为均线取上名字。</p>
+<p><b style="color:red;font-size:18px">均线的正确的利用是动力学，而不是形态学。</b></p>
+<p>不是一个 30 线放在那就是强力支撑。所谓起到支撑的效果，必须是小级别走势在那个时候下跌动力释放殆尽，走势结构完美，回落 30 线附近，在形态学看来是 30 线起到了支撑，但是关键是那根 30 线<br>吗?下跌没到 30 线，或许跌到了 25 线上就不跌了呢，但是 25 线你 没画出来，那么支撑到底是你画出来的 30 线还是 25 线呢?那如果下 次是 27 线呢?29 线甚至 31 线呢?玩均线，请分清主次，别本末倒置了，不要把参考当作答案。</p>
+<h2 id="MACD"><a href="#MACD" class="headerlink" title="MACD"></a>MACD</h2><p>MACD 不是关键，走势是关键，缠很久很久已经就说过了，单纯用 MACD 判断背 驰来操作的准确率大概在百分之 90 左右。</p>
+<h3 id="15分钟和60分钟简单示例"><a href="#15分钟和60分钟简单示例" class="headerlink" title="15分钟和60分钟简单示例"></a>15分钟和60分钟简单示例</h3><ul>
+<li>60分钟红柱确定缩短，对应15分钟出绿柱。这是最基本的。这个用处不大。</li>
+<li>60分钟出绿柱，15分钟MACD黄白线在0轴以下。<br>怎么用？最大的用处是针对那些不懂判断走势终完美的人，是辅助很好的利器。</li>
+</ul>
+<p>举个例子 :<br>60分钟出绿柱子，15分钟也出绿柱子，但是黄白线在0轴上或者绿柱子没有背离，那么60分钟的一笔肯定没有完成。就算这时5分钟出了背驰，但是也是5分钟上的反弹，为下跌中继，而且往往伴随更大的下跌幅度。红柱子的用法反之。</p>
+<p>我的白话 :</p>
+<p style="color:red;font-weight:bold;font-size:16px"><br>如果60分钟MACD中开始出现绿柱,而15分钟级别MACD黄白线在0轴之上,那需要等待15分钟级别的MACD的黄白线跌到0轴下方(80%,大部分情况)<br>如果这个时候在15分钟MACD的黄白线还在0轴上方就进场,可能只是买到下跌中的中继部分. 通俗的讲就是还没跌完就进场<br></p>
+
+<h2 id="短线-1"><a href="#短线-1" class="headerlink" title="短线"></a>短线</h2><p>在日线上寻找强力底分型，然后主要操作涉及在15分钟上，走势分类也相应分类过了</p>
+<p>选日线盘整突破的股票的回调票和日线走强势一笔后回调</p>
+<h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><ul>
+<li>级别</li>
+<li>走势终完美<br>缠论系统的两个核心部分。稍微没弄清楚，就会差之毫厘，失之千里</li>
+</ul>
+<p>为什么需要画分型,笔,线段?<br><b style="green">分型，笔，线段的定义出来只是为了帮助我们更好的理解缠论这么一个系统，让走势图显得更加有规律。</b></p>
+<p>缠论系统里的任何构件，比如，笔，中枢，线段，分型以及背驰最终的目的都是为三个买卖点服务的</p>
+<ul>
+<li>任何技术java spring 框架 集群 分布式微服务等等 都是为业务服务</li>
+</ul>
+<ul>
+<li>级别是什么?<br><b style="green">级别是形成买卖点的前提。</b></li>
+<li>走势终完美是什么?<br><b style="green">是走势类型转化的拐点，也可以说是一买一卖的确认点。</b></li>
+</ul>
+<p>两个核心理念和系统部件都是围绕三个买卖点展开的.<br>那么很容易形成一个正确的思维，我们当下无论研究什么，都是为了研究出三个买卖点或者类三个买卖点的形成时机和伺机操作。</p>
+<p><img src="/images/非分类技术-1.png" data-action="zoom"></p>
+<ol>
+<li>5 分钟线段满足类趋势结构</li>
+<li>D 小于 C 小于 B</li>
+<li>红箭头那不新低的确认。</li>
+</ol>
+<p>继续<br>红线这样去划分，用类笔勾勒出的绿箭头中枢。很显然满足一个空头中枢，那么新低也是理所当然得了。</p>
+<h2 id="高低点"><a href="#高低点" class="headerlink" title="高低点"></a>高低点</h2><ul>
+<li>在下跌走势中，需要关注的是反弹的高点的位置，在上涨走势中，需要关注的是回抽的低点的位置。</li>
+<li>在单边走势中，不要试图用技术指标的背离去判断走势的结束。</li>
+<li>高低点只在趋势走势类型中有效，在盘整中意义不大。</li>
+<li>运用高低点分析，用的分析类方法是线段走势分析，不需要过于注重中枢的划分。</li>
+</ul>
+<p>二卖<br>一直新高的股票，在有背驰后第一次回调再反弹不新高后叫做二卖</p>
+<p>在走势结构已经完美的情况，MACD不显示背驰的情况下第一次回调再反弹不新高后应该叫什么？不能叫做二卖吗？能吧。不然还要什么走势结构，直接MACD得了。<br>但是二卖之后一定会有更大级别的反趋势吗？那也不一定吧。缠也说过三种情况。</p>
+<ul>
+<li>中枢扩展</li>
+<li>更大级别的盘整</li>
+<li>更大级别的反趋势。<br>走势结构完成的前提下，不新高之后，规规矩矩的按照三种情况分类就是了</li>
+</ul>
+<p>通常会遇见不新高后，形成一个盘整在高位盘着。</p>
+<ul>
+<li>二卖后的盘整叫做<b style="color:red">中阴阶段</b></li>
+<li>二买后的盘整我们也可以叫做<b style="color:red">转生期</b><br>两类情况都是没有方向可言的，<b style="color:red">那么切勿把高低点代入到里面去分析</b>，没用的。盘整就按照盘整的规矩来，突破三买和三卖不就完了嘛。</li>
+</ul>
+<p>走势结构完美的前提下，<b style="color:red">不新高后，不代表一定会形成一个反方向的线段，甚至形成一个更大级别的反趋势。</b><br>饭要一口一口吃，分析也要一步来，走到哪里就预计下一步，不要去憧憬下下一步甚至下一个走势的终完美。这样的人太多了，比如说大盘。</p>
+<p><img src="/images/70e8228etc82fe26178f1&690.jpeg" data-action="zoom"></p>
+<p>上图是大盘15分钟的图。绿箭头不创2089点新低，本身是有可能走一个向上线段的，但是红箭头没有破坏本身的结构，那么这里的反弹仅仅是走了一个很弱的盘整。而且这盘整在60分钟上表现是在60分钟0轴以下形成的，2089的新低要破吗？当然</p>
+<p><img src="/images/QQ20170902-111840.png" data-action="zoom"></p>
+<p>.</p>
+</div><iframe src="/donate/?AliPayQR=null&amp;WeChatQR=/images/pijingzhanji.JPG&amp;GitHub=null&amp;BTCQR=null&amp;BTCKEY=null&amp;PayPal=null" style="overflow-x:hidden; overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;" frameborder="0" scrolling="no"></iframe><script type="text/javascript" src="/js/share.js?v=0.0.0" async></script><a class="article-share-link" data-url="https://yujunhao8831.github.io/2017/08/06/未归类技术学习/" data-id="cjszp5y5r009p17f8uhtrl6h5" data-qrcode="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACrUlEQVR42u3aQXKDQAwEwPz/084LgJG0Ik5V++TCNtAcVuuRfn7i1+fidf/N+9/enzO/4oEXHh4e3qFbv7rY/ZH8/dWRq0/zR4aHh4f3Di8/9f3F8ltJzpPfz+VxPDw8vK/h3W+jqwt98k08PDy8/867OtLbWOflBw8PD+97eNWN7zxNnSz6K1kLHh4eXszLb+573q/09/Dw8PDGXfV8UCBf4q/Olo8jFO4WDw8Pb4GXL7jVoajqNyeNsYfHhIeHh7fAyxlJ+JsHu71QuNpmw8PDw9vg9Zbp+ShAL0puRhJ4eHh4R3mT9lI+jNUbsaqONTxUPDw8PLwxL38Gva12j1R9NKOuHR4eHt5gLKAawlZ/lRSMvIVWKGB4eHh4a7xqtNqLD3pBQzUyxsPDw9vj9Zb1fAveGzs4VWbw8PDwNnh5YejFBPnoQL7cJ1Fyue7h4eHhDXjVuGG+o8+PJ48bDw8P701eFVONU6sttHxb/1Ci8PDw8BZ484A1h03aZveb9WimDA8PD2/Mq/69rwav1UGrfNGPihYeHh7eAu9sG2yyQZ+Mf0UVDw8PD+8or7dk5zc0jx4OBBN4eHh4a7z7UyctruqYaW9Uqxz74uHh4R3iNZvxLeSkYIySaTw8PLyjvGRR7g0E9Dbckwf0UMbw8PDwjvLyMtDbcPcW/eThRveAh4eH9wqv92l1YGvSACvEH3h4eHhrvOSPfa8M7J2n2dnDw8PDG/A+xVdvi5x8Wn240XgBHh4e3gKv2tTPAXmbLQmRe7EvHh4e3h6vWgwmt1uNjxP2AxgPDw9vjZcv6NVmf7kKHRrzwsPDw/se3qkoIY8Vkv8EUUqNh4eH96e8/GLvRMDlCoOHh4c35k1aVvmGuxwlDOJgPDw8vD1e9Q//RoO/GvI2GXh4eHhT3i8aKgMnRGU6JwAAAABJRU5ErkJggg==">分享</a><div class="tags"><a href="/tags/股票/">股票</a></div><div class="post-nav"><a class="pre" href="/2017/08/08/外汇操作/">外汇操作</a><a class="next" href="/2017/07/28/nginx-alias-root/">nginx-alias-root</a></div><div id="container"></div><link rel="stylesheet" type="text/css" href="//unpkg.com/gitalk/dist/gitalk.css?v=0.0.0"><script type="text/javascript" src="//cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js?v=0.0.0"></script><script type="text/javascript" src="//unpkg.com/gitalk/dist/gitalk.min.js?v=0.0.0"></script><script>var gitalk = new Gitalk({
+  clientID: '18e1ad18c984fd09f33e',
+  clientSecret: '957f160a646fce08b0c0f13eb15a1a636ae70ac3',
+  repo: 'yujunhao8831.github.io',
+  owner: 'yujunhao8831',
+  admin: [''],
+  id: md5(location.pathname),
+  distractionFreeMode: false
+})
+gitalk.render('container')
+</script></div></div></div><div class="pure-u-1 pure-u-md-1-4"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="https://yujunhao8831.github.io"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/交易/">交易</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活/">生活</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/编程/">编程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/金融/">金融</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/脚手架/" style="font-size: 15px;">脚手架</a> <a href="/tags/股票/" style="font-size: 15px;">股票</a> <a href="/tags/规则引擎/" style="font-size: 15px;">规则引擎</a> <a href="/tags/Spring-Cloud/" style="font-size: 15px;">Spring-Cloud</a> <a href="/tags/Feign/" style="font-size: 15px;">Feign</a> <a href="/tags/Hystrix/" style="font-size: 15px;">Hystrix</a> <a href="/tags/Docker/" style="font-size: 15px;">Docker</a> <a href="/tags/Zuul/" style="font-size: 15px;">Zuul</a> <a href="/tags/Ribbon/" style="font-size: 15px;">Ribbon</a> <a href="/tags/Spring/" style="font-size: 15px;">Spring</a> <a href="/tags/Restful-API/" style="font-size: 15px;">Restful API</a> <a href="/tags/Swagger/" style="font-size: 15px;">Swagger</a> <a href="/tags/java/" style="font-size: 15px;">java</a> <a href="/tags/mql5/" style="font-size: 15px;">mql5</a> <a href="/tags/MyBatis/" style="font-size: 15px;">MyBatis</a> <a href="/tags/spring-spring-boot-spring-cache-redis/" style="font-size: 15px;">spring spring-boot spring-cache-redis</a> <a href="/tags/spring-spring-boot-admin/" style="font-size: 15px;">spring spring-boot-admin</a> <a href="/tags/Java/" style="font-size: 15px;">Java</a> <a href="/tags/Eureka/" style="font-size: 15px;">Eureka</a> <a href="/tags/分布式调度/" style="font-size: 15px;">分布式调度</a> <a href="/tags/redis/" style="font-size: 15px;">redis</a> <a href="/tags/vpn/" style="font-size: 15px;">vpn</a> <a href="/tags/spring-spring-小技巧/" style="font-size: 15px;">spring spring-小技巧</a> <a href="/tags/分布式session共享/" style="font-size: 15px;">分布式session共享</a> <a href="/tags/测试/" style="font-size: 15px;">测试</a> <a href="/tags/观后感/" style="font-size: 15px;">观后感</a> <a href="/tags/目标/" style="font-size: 15px;">目标</a> <a href="/tags/多线程日志用户跟踪/" style="font-size: 15px;">多线程日志用户跟踪</a> <a href="/tags/问题/" style="font-size: 15px;">问题</a> <a href="/tags/交易/" style="font-size: 15px;">交易</a> <a href="/tags/疑惑/" style="font-size: 15px;">疑惑</a> <a href="/tags/理念/" style="font-size: 15px;">理念</a> <a href="/tags/Log4j2-日志/" style="font-size: 15px;">Log4j2 日志</a> <a href="/tags/java-web/" style="font-size: 15px;">java web</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/03/07/2019-交易新见解/">2019-交易新见解</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/01/24/Drools-Workbench部署/">Drools Workbench部署</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/08/01/再次总结/">再次总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/07/29/体系学习/">体系学习</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/07/23/交易需要简单-心要静-转/">交易需要简单,心要静-转</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/07/19/最近亏损的反思/">最近亏损的反思</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/06/19/缠论-杂烩/">缠论-杂烩</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/06/18/来学习学习-转/">来学习学习-转</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/06/03/2018-06-03-周总结/">2018-06-03-周总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/06/01/锦囊/">锦囊</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2019 <a href="/." rel="nofollow">披荆斩棘.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//lib.baomitu.com/fancybox/3.5.2/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//lib.baomitu.com/fancybox/3.5.2/jquery.fancybox.min.css"><script type="text/javascript" color="204, 255, 222" opacity="0.5" zIndex="-1" count="666" src="//lib.baomitu.com/canvas-nest.js/2.0.3/canvas-nest.umd.js"></script><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
