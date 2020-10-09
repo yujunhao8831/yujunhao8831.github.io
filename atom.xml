@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yujunhao8831.github.io/"/>
-  <updated>2020-05-05T12:01:17.012Z</updated>
+  <updated>2020-10-09T03:26:08.476Z</updated>
   <id>https://yujunhao8831.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020-10-09-指数见解</title>
+    <link href="https://yujunhao8831.github.io/2020/10/09/2020-10-09-%E6%8C%87%E6%95%B0%E8%A7%81%E8%A7%A3/"/>
+    <id>https://yujunhao8831.github.io/2020/10/09/2020-10-09-指数见解/</id>
+    <published>2020-10-09T03:05:02.000Z</published>
+    <updated>2020-10-09T03:26:08.476Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="/2020/05/05/2020-05-05-指数见解/">接着上篇</a></p><p>个人结论:<br>  三大指数周线回踩预期</p><p>深证成指，创业板指回踩若完成，趋势继续<br>之前上证指数拖后腿的，现在脱离震荡区域，预期步入趋势阶段，但是还不够强，刚脱离就回踩。<br>个人判断：三大指数看多，周线回踩完成趋势继续则后续爆发力更强，三大指数趋势合力。</p><p>走法预期：<br> 1、 震荡多-&gt;脱离震荡-&gt;短期空洗盘-&gt;短期收复后突破-&gt;强多头趋势<br> 2、 震荡多-&gt;脱离震荡-&gt;强多头趋势</p><h1 id="上证指数"><a href="#上证指数" class="headerlink" title="上证指数"></a>上证指数</h1><p><img src="/images/181602213018_.pic_hd.jpg" alt=""><br><img src="/images/191602213050_.pic_hd.jpg" alt=""></p><h1 id="深圳成指"><a href="#深圳成指" class="headerlink" title="深圳成指"></a>深圳成指</h1><p><img src="/images/201602213071_.pic_hd.jpg" alt=""><br><img src="/images/211602213083_.pic_hd.jpg" alt=""></p><h1 id="创业板指"><a href="#创业板指" class="headerlink" title="创业板指"></a>创业板指</h1><p><img src="/images/221602213097_.pic_hd.jpg" alt=""><br><img src="/images/231602213106_.pic_hd.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;/2020/05/05/2020-05-05-指数见解/&quot;&gt;接着上篇&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;个人结论:&lt;br&gt;  三大指数周线回踩预期&lt;/p&gt;
+&lt;p&gt;深证成指，创业板指回踩若完成，趋势继续&lt;br&gt;之前上证指数拖后腿的，现在脱离震荡区域，预期步入趋势阶段，但
+      
+    
+    </summary>
+    
+      <category term="金融" scheme="https://yujunhao8831.github.io/categories/%E9%87%91%E8%9E%8D/"/>
+    
+    
+      <category term="股票" scheme="https://yujunhao8831.github.io/tags/%E8%82%A1%E7%A5%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>2020-05-05-指数见解</title>
@@ -549,33 +576,6 @@
     
     
       <category term="股票" scheme="https://yujunhao8831.github.io/tags/%E8%82%A1%E7%A5%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Drools Workbench部署</title>
-    <link href="https://yujunhao8831.github.io/2019/01/24/Drools-Workbench%E9%83%A8%E7%BD%B2/"/>
-    <id>https://yujunhao8831.github.io/2019/01/24/Drools-Workbench部署/</id>
-    <published>2019-01-24T06:27:15.000Z</published>
-    <updated>2019-01-24T06:52:43.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><h3 id="Drools-Workbench"><a href="#Drools-Workbench" class="headerlink" title="Drools Workbench"></a>Drools Workbench</h3><p><a href="https://www.drools.org/download/download.html" target="_blank" rel="noopener">官网下载</a></p><p><img src="/images/QQ20190124-142940@2x.png" alt=""></p><h3 id="wildfly"><a href="#wildfly" class="headerlink" title="wildfly"></a>wildfly</h3><p><a href="http://wildfly.org/downloads/" target="_blank" rel="noopener">官网下载</a></p><p><img src="/images/QQ20190124-143236@2x.png" alt=""></p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p><a href="https://docs.jboss.org/drools/release/7.16.0.Final/drools-docs/html_single/index.html#_wb.workbench" target="_blank" rel="noopener">文档</a></p><h3 id="部署-wildfly"><a href="#部署-wildfly" class="headerlink" title="部署 wildfly"></a>部署 wildfly</h3><p><img src="/images/QQ20190124-143633@2x.png" alt=""><br><img src="/images/QQ20190124-143745@2x.png" alt=""></p><p>运行 standalone.sh</p><p><img src="/images/QQ20190124-144040@2x.png" alt=""></p><p>访问 <a href="http://127.0.0.1:9990" target="_blank" rel="noopener">http://127.0.0.1:9990</a> , 能访问标识部署成功,接着配置用户</p><p>运行 add-user.sh</p><p><img src="/images/QQ20190124-144259@2x.png" alt=""></p><p>What type of user do you wish to add?<br> a) Management User (mgmt-users.properties) (这个是配置WildFly服务器的用户)<br> b) Application User (application-users.properties) (这个是配置部署在WildFly服务器app[比如即将要在WildFly部署的Drools Workbench应用]的用户)</p><p>接着自行配置</p><p><img src="/images/QQ20190124-144734@2x.png" alt=""></p><p>将下载的 Drools Workbench war 改名改为 kie-wb.war (这里可以不改,或者改成自己喜欢的名字)</p><p>然后部署上去即可.</p><p><img src="/images/QQ20190124-145126@2x.png" alt=""><br><img src="/images/QQ20190124-145151@2x.png" alt=""><br><img src="/images/QQ20190124-145215@2x.png" alt=""></p><p>.</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;下载&quot;&gt;&lt;a href=&quot;#下载&quot; class=&quot;headerlink&quot; title=&quot;下载&quot;&gt;&lt;/a&gt;下载&lt;/h2&gt;&lt;h3 id=&quot;Drools-Workbench&quot;&gt;&lt;a href=&quot;#Drools-Workbench&quot; class=&quot;headerlink&quot; 
-      
-    
-    </summary>
-    
-      <category term="编程" scheme="https://yujunhao8831.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
-    
-    
-      <category term="Java" scheme="https://yujunhao8831.github.io/tags/Java/"/>
-    
-      <category term="规则引擎" scheme="https://yujunhao8831.github.io/tags/%E8%A7%84%E5%88%99%E5%BC%95%E6%93%8E/"/>
     
   </entry>
   
